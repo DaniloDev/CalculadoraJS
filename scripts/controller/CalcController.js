@@ -67,6 +67,8 @@ class CalcController{
     toggleAudio(){
        
         this._audioOnOff = !this._audioOnOff
+        if(this._audioOnOff)  alert("Som LIGADO")
+        if(!this._audioOnOff) alert("Som DESLIGADO")
     }
 
     playAudio(){
